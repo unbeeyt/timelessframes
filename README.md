@@ -11,7 +11,7 @@ Welcome to the Photography Portfolio Site repository! This project is designed t
 
 ## Demo
 
-Check out the live demo [here](#) (replace with your demo link).
+Check out the live demo [https://unbeeyt.github.io/timelessframes/](#).
 
 ## Getting Started
 
@@ -25,12 +25,12 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/yourusername/photography-portfolio.git
+    git clone https://github.com/unbeeyt/timelessframes.git
     ```
 
 2. **Navigate to the project directory:**
     ```sh
-    cd photography-portfolio
+    cd timelessframes
     ```
 
 3. **Open `index.html` in your web browser to view the site locally.**
