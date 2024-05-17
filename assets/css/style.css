@@ -1,16 +1,16 @@
-* {box-sizing:border-box}
+* {
+    box-sizing: border-box
+}
 
-
-
-#header{
+header {
     min-height: 100vh;
     width: 100%;
-    
     background-position: center;
     background-size: cover;
     position: relative;
     overflow: hidden;
 }
+
 .text-box {
     width: 90%;
     color: #C77038;
@@ -20,16 +20,19 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
-    .text-box h1 {
-        font-size: 50px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        color: #E38548;
-    }
-    .text-box p {
-        margin: 20px 0 40px;
-        font-size: 20px;
-        color: #c77038;
-    }
+
+.text-box h1 {
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #E38548;
+}
+
+.text-box p {
+    margin: 20px 0 40px;
+    font-size: 20px;
+    color: #c77038;
+}
+
 .hero-btn {
     display: inline-block;
     text-decoration: none;
@@ -38,7 +41,6 @@
     border-radius: 20px;
     padding: 12px 34px;
     font-size: 13px;
-    background: transparent;
     position: relative;
     cursor: pointer;
     transition: 1s;
@@ -46,20 +48,21 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.hero-btn:hover{
+.hero-btn:hover {
     border: 1px solid #424242;
     background: #363636;
 }
+
 .video-cover {
-  height: 100vh;
-  width: 100vw;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 /* page content */
@@ -71,68 +74,71 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 3rem;
-  margin-top: 30vh; 
+    font-size: 3rem;
+    margin-top: 30vh;
 }
 
-h2 { 
-    font-size: 3rem; 
+h2 {
+    font-size: 3rem;
 
 }
 
 @media (max-width: 750px) {
-    #background-video {height: 100vh;
-  width: 5vw;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;  }
+    #background-video {
+        height: 100vh;
+        width: 5vw;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+
     body {
-      background: no-repeat;
-      background-size: cover;
+        background: no-repeat;
+        background-size: cover;
     }
 }
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+    display: none;
 }
 
 /* Next & previous buttons */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -148,58 +154,68 @@ h2 {
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+    background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 
-
-#portfolio, contact{
-        margin-top: 10%;
-        color: #; 
+#portfolio, .contact {
+    margin-top: 10%;
 }
 
-.portfolio-text, contact-text {
+.portfolio-text, .contact-text {
     text-align: center;
     margin-bottom: 5%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contact-text {
+    margin-bottom: 0;
 }
 
 .card {
@@ -209,27 +225,27 @@ h2 {
     height: 13rem;
 }
 
-.card h3{
-        font-size: 2rem;
-        text-align: center;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: 120;
-        
+.card h3 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 120;
+
 }
 
-.card img{width: 100%;
+.card img {
+    width: 100%;
 
 
-        
 }
 
-.project-2-img{
-        height: 76%;
+.project-2-img {
+    height: 76%;
 }
 
-.card img:hover{
-        opacity: 80%;
-        
+.card img:hover {
+    opacity: 80%;
+
 }
 
 .project-btn {
@@ -242,7 +258,6 @@ h2 {
     border: 1px solid #525252;
     padding: 12px 34px;
     font-size: 13px;
-    background: transparent;
     position: relative;
     cursor: pointer;
     transition: 1s;
@@ -250,102 +265,98 @@ h2 {
     border-radius: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.project-btn:hover{
+
+.project-btn:hover {
     border: 1px solid #363636;
     background: #363636;
 }
 
 
-
-
-
-
-
- 
-
-
-
-
-
 .cards {
-  max-width: 1000px;
-  max-height: 1000px;
-  margin: 0 auto;
-  display: grid;
-  grid-gap: 1rem;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
 }
-
 
 
 /* Screen larger than 600px? 2 column */
 @media (min-width: 600px) {
-  .cards { grid-template-columns: repeat(2, 1fr); }
-  
-   
-  
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
 }
 
 @media (max-width: 600px) {
-  .cards { grid-template-columns: repeat(1, 1fr); }
-  .card {
-          height: 600px;
-  }
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
-  .card h2 {
-          font-size: 10px;
-  }
-  .card img{
-      height:300px;
-      width: 300px;
+    .card {
+        height: 600px;
+    }
+
+    .card h2 {
+        font-size: 10px;
+    }
+
+    .card img {
+        height: 300px;
+        width: 300px;
 
 
-        
+    }
+
+    .project-btn {
+        margin-left: 95px;
+    }
 }
 
-.project-btn{
-        margin-left:95px;
-}
-}
 
-
-
-  
 @media (min-width: 800px) {
-  .cards { grid-template-columns: repeat(2, 1fr); }
-  .card {
-          height: 300px;
-  }
-  
-  
-   
-  
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        height: 300px;
+    }
+
+
 }
 
 /* Screen larger than 900px? 3 columns */
 @media (min-width: 900px) {
-  .cards { grid-template-columns: repeat(3, 1fr); }
-  .card {
-          height: 300px;
-  }
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card {
+        height: 300px;
+    }
 }
 
 
-
-.footer{
+footer {
     width: 100%;
     text-align: center;
-    padding: 30px 0;
-    
+    margin-bottom: 4vh;
 }
-.footer h4{
-    margin-bottom: 25px;
+
+footer .icons {
+    margin-top: 4vh;
+}
+
+footer h3 {
     margin-top: 20px;
-    font-weight: 600;
-    
+    font-weight: bold;
 }
 
 .icons .fa {
-    color: 419D8D;
+    color: #419D8D;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
